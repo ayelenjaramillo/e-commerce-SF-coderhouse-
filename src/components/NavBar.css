@@ -1,0 +1,26 @@
+.header-ecommerce{
+    background-color: rosybrown;
+    
+}
+.icon{
+    color: white;
+}
+
+.li-navbar{
+    list-style: none;
+    
+}
+.ul-header{
+    display: flex;
+    gap: 30%;
+   
+    
+}
+
+.div{
+    display: flex;
+    width: 90%;
+}
+.img-logo{
+    margin-left: 80%;
+}
