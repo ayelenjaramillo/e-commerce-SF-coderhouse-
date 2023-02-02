@@ -1,8 +1,33 @@
-.item-container{
-    background-color: bisque;
-    margin: 0;
-    height: 70%;
+/* mobile first */
+.cards-items{
+    width: 95%;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.general-container-item{
+    
+    background-color: #E6C261; 
+    font-family: 'Ubuntu', sans-serif;
+}
+.ul-cards-items{
+    padding: 10% 13%;
+    width: 100%;
+   
 }
 .item-container-titulo{
-    margin: 0;
+    color: white;
+    font-weight: bold;
+    padding: 2% 10%;
+    font-family: 'Ubuntu', sans-serif;
 }
+
+
+/* desktop */
+@media (min-width:1000px){
+
+.ul-cards-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+    gap: 5%;
+    padding-top: 2%;
+}}

@@ -1,26 +1,61 @@
+/* MOBILE FIRST */
 .header-ecommerce{
-    background-color: rosybrown;
-    
+    background-color:#E6C261;
+    font-family: 'Ubuntu', sans-serif;    
 }
-.icon{
-    color: white;
+.btn-menu{
+    width: 100%;   
 }
-
-.li-navbar{
-    list-style: none;
-    
-}
-.ul-header{
-    display: flex;
-    gap: 30%;
-   
-    
-}
-
 .div{
     display: flex;
-    width: 90%;
+    width: 98.5%;    
 }
 .img-logo{
-    margin-left: 80%;
+    margin-left: 63%;
+    padding-bottom: 8%;
+}
+.cart-widget{
+    width: 10%;
+    margin-top: 15%;
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    margin-left: 81%;        
+}
+
+/* DESKTOP */
+
+@media(min-width: 1000px){
+    .hid{
+        display: none;
+    }
+    .navbar-container{
+        padding: 2%;
+        
+    }
+    .ul-header{
+        display: flex;
+        gap: 17%;
+        justify-content: space-between;
+        list-style: none;
+       
+    }
+    .img-logo{
+        padding-top: 2%;
+        padding-bottom: 2.5%;
+        margin-left: 70%;
+        position: relative;
+    }
+    .cart-widget{
+        margin-top: 7%;
+        position: absolute;
+        margin-left: 86%;    
+    }
+    .link{
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+   
+   
 }

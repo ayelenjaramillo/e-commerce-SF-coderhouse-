@@ -1,6 +1,39 @@
+
+
 .producto-slide-1{
-    background-color: bisque;
+    background-image: url(./img/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 80%;
+    padding: 5% 10%;
 }
-.h1{
-    margin: 0;
+.p-producto{
+    color:#040404;
+    opacity: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 23px;
+}
+.btn-comprar{
+    margin: 5% 25%;
+    width: 50%;
+    color: whitesmoke;  
+    box-shadow: rgba(0, 0, 0, 0.2) 3px 6px 10px;
+    
+}
+.girasol{
+   width: 40px;
+}
+.h1-producto{
+    color:#040404;
+    opacity: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+@media(min-width:1000px){
+    .btn-comprar{
+        margin-top: 10%;
+        margin-bottom: 0;
+        
+    }
 }

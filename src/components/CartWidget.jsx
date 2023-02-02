@@ -7,7 +7,7 @@ const CartWidget =()=>{
         <div className="cart-widget"> 
         <FontAwesomeIcon icon={faCartShopping} size="2x" className="icon"/>
         <div className="cantidad-productos">
-            0
+          U:0
         </div>
         </div>
     )

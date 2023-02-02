@@ -1,14 +1,15 @@
-.icon{
-    padding: 90% 0;
-    color: aliceblue;
-    margin-left: 50%;
-   
+ .icon {
+  color: #4D4C4C; 
+ 
 }
-.cantidad-productos{
-    margin-left: 50%;
-    color: white;
-    font-weight: bold;
+ .cantidad-productos{
+    margin-left: 40%;
+    color:#4D4C4C; 
     font-size: 20px;
-    padding-bottom: 90%;
-    margin-top: 20%;
-}
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+ }
+ .cart-widget{
+   width: 10%;
+   
+ }

@@ -12,15 +12,15 @@ const NavBar=()=>{
         <div className="header-ecommerce">
             <div className="header-container">
                 <div className="btn-menu">
-                    <FontAwesomeIcon icon={faBars} size="lg" />
-                    <small>MENU</small>
+                    <FontAwesomeIcon icon={faBars} size="lg" className="hid"/>
+                    <small className="hid">MENU</small>
                     <div className="div">
-                       <nav>
+                       <nav className="navbar-container">
                         <ul className="ul-header">
-                            <li className="li-navbar"><a href="#">Inicio</a></li>
-                            <li className="li-navbar"><a href="#">Productos <span className="arrow"></span> </a></li>
-                            <li className="li-navbar"><a href="#">Blog</a></li>
-                            <li className="li-navbar"><a href="#">Contacto</a></li>
+                            <li className="li-navbar"><a href="#" className="link">Inicio</a></li>
+                            <li className="li-navbar"><a href="#" className="link">Productos <span className="arrow"></span> </a></li>
+                            <li className="li-navbar"><a href="#" className="link">Blog</a></li>
+                            <li className="li-navbar"><a href="#" className="link">Contacto</a></li>
                         </ul>
                        </nav>
                        
