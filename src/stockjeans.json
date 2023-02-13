@@ -31,10 +31,27 @@
     "descripcion": "Jean realizado con jean provenientes de susuusususus, buen calce. "
 }, 
 {
-    "id": 4, 
+    "id": 5, 
     "titulo": "Amelina Jeans", 
     "precio": "$4000", 
     "tipo": "MOM Style", 
     "disponible": false, 
     "descripcion": "Jean realizado con jean provenientes de susuusususus, buen calce. "
-}]
+},
+{
+    "id": 6, 
+    "titulo": "Isabelle Jeans", 
+    "precio": "$3500", 
+    "tipo": "MOM Style",
+    "disponible": true, 
+    "descripcion": "Jean realizado con jean provenientes de susuusususus, buen calce. "
+},
+{
+    "id": 7, 
+    "titulo": "Isabelle Jeans", 
+    "precio": "$3500", 
+    "tipo": "MOM Style",
+    "disponible": true, 
+    "descripcion": "Jean realizado con jean provenientes de susuusususus, buen calce. "
+}
+]

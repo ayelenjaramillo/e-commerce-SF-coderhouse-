@@ -1,0 +1,32 @@
+
+.li-prod{
+    list-style: none;
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 2% 4%; 
+}
+.img-productos{
+    width: 85%;
+    margin-left: 4%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-left: 7%;
+    
+}
+.product-title{
+    box-shadow: rgba(0, 0, 0, 0.2) 3px 6px 10px;
+    width: 93%;
+    border-radius: 10px;
+}
+.general-productos{
+    margin-left: 6%;
+}
+@media (min-width: 1000px){
+    .img-productos{
+        width: 20%;
+    }
+    .general-productos{
+        width: 98%;
+        display: grid;
+        
+}}
