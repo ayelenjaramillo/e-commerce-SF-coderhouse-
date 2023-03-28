@@ -1,14 +1,41 @@
 /* MOBILE FIRST */
+
 .header-ecommerce{
     background-color:#E6C261;
-    font-family: 'Ubuntu', sans-serif;    
+    font-family: 'Ubuntu', sans-serif;  
+    flex-direction: column; 
 }
 .btn-menu{
     width: 100%;   
+    background-color: #E6C261;
+   
+    width: 100vw;
+    
+}
+.navbar-container{
+    background-color: #E6C261;
+   
+    width: 100vw;
+    font-size: 20px;
+}
+.ul-header{
+    list-style: none;
+    
+}
+.li-navbar{
+    display: block;
+    padding: 0 20px;
+    line-height: 50px;text-decoration: none;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 .div{
     display: flex;
-    width: 98.5%;    
+    width: 98.5%;   
 }
 .img-logo{
     margin-left: 63%;
@@ -21,41 +48,43 @@
     position: absolute;
     margin-left: 81%;        
 }
+.hide-menu {
+  display: none;
+}
 
 /* DESKTOP */
 
 @media(min-width: 1000px){
-    .hid{
-        display: none;
-    }
-    .navbar-container{
-        padding: 2%;
-        
-    }
-    .ul-header{
-        display: flex;
-        gap: 17%;
-        justify-content: space-between;
-        list-style: none;
-       
-    }
-    .img-logo{
-        padding-top: 2%;
-        padding-bottom: 2.5%;
-        margin-left: 70%;
-        position: relative;
-    }
-    .cart-widget{
-        margin-top: 7%;
-        position: absolute;
-        margin-left: 86%;    
-    }
-    .link{
-        text-decoration: none;
-        color: white;
-        font-weight: bolder;
-        font-size: 20px;
-    }
-   
-   
+  .hid{
+      display: none;
+  }
+  .navbar-container{
+      padding: 2%;
+      
+  }
+  .ul-header{
+      display: flex;
+      gap: 17%;
+      justify-content: space-between;
+      list-style: none;
+      
+  }
+  .img-logo{
+      padding-top: 2%;
+      padding-bottom: 2.5%;
+      margin-left: 70%;
+      position: relative;
+  }
+  .cart-widget{
+      margin-top: 7%;
+      position: absolute;
+      margin-left: 86%;    
+  }
+  .link{
+      text-decoration: none;
+      color: white;
+      font-weight: bolder;
+      font-size: 20px;
+  }
 }
+   
