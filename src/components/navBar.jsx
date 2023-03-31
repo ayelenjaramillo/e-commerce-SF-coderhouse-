@@ -24,10 +24,10 @@ const NavBar=()=>{
           <div className={`div ${displayWebMenu ? '' : 'hide-menu'}`}>
             <nav className="navbar-container">
               <ul className="ul-header">
-                <Link to= "/"><li className="li-navbar"><a href="#" className="link">Inicio</a></li></Link> 
-                <Link to= "/AllProducts"><li className="li-navbar"><a href="#" className="link">Productos <span className="arrow"></span> </a></li></Link>
-                <Link><li className="li-navbar"><a href="#" className="link">Blog</a></li></Link>
-                <Link><li className="li-navbar"><a href="#" className="link">Contacto</a></li></Link>
+                <Link to= "/"><li className="li-navbar"><a href="#" className="link">INICIO</a></li></Link><hr className='linea-div' />
+                <Link to= "/AllProducts"><li className="li-navbar"><a href="#" className="link">PRODUCTOS <span className="arrow"></span> </a></li></Link> <hr className='linea-div'/>
+                <Link><li className="li-navbar"><a href="#" className="link">BLOG</a></li></Link> <hr className='linea-div'/>
+                <Link><li className="li-navbar"><a href="#" className="link">CONTACTO</a></li></Link> <hr className='linea-div'/>
               </ul>
             </nav>
             <div className="img-logo">

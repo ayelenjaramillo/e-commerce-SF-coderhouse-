@@ -12,14 +12,14 @@
     padding: 5%  15%;
     margin-bottom: 15%;
     border-radius: 10px;
-    background-color: #F6E3A3;
+    background-color: #DFE5BF;
     
 }
 .img-jean-unit{
     border-radius: 10px;
     background-color: azure;
-    width: 350px;
-    height: 445px;
+    width: 90%;
+    height: 30%;
 }
 .titulonombre{
     font-size: 25px;
@@ -48,6 +48,11 @@
 
 /* DESKTOP */
  @media (min-width: 1000px){
-    .li-jean-unit {display: grid;
-     
-        }}
+    .li-jean-unit {
+      display: grid;
+     }
+    .img-jean-unit{
+      width: 90%;
+      height: 95%;
+    }
+    }

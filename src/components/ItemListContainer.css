@@ -2,11 +2,12 @@
 .cards-items{
     width: 95%;
     font-family: 'Ubuntu', sans-serif;
+    background-color: #D8E691;
     
 }
 .general-container-item{
     
-    background-color: #E6C261; 
+    background-color: #D8E691; 
     font-family: 'Ubuntu', sans-serif;
 }
 .ul-cards-items{
@@ -21,7 +22,7 @@
     font-family: 'Ubuntu', sans-serif;
 }
 .title-h2{
-    color: #5AA463;
+    color: #555650;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     margin-left: 10%;

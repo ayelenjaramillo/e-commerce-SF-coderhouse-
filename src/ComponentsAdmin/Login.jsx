@@ -39,7 +39,7 @@ const Login =()=>{
         <input className="input-login" id="contrasenia" type="password" placeholder="Ingresar contrasenia"></input><br/>
         <button className="boton-login" onClick={login}> Ingresar </button>
         <button className="boton-login" onClick={registrar}> Registrar </button><br/>
-        <p className="parrafo-login"> Ingresa  correo  y  contrasenia  validos  para  poder  ver  y  actualizar  tu  stock </p>
+        <p className="parrafo-login"> Ingresa o registrate con correo  y  contrasenia  validos  para   ver  y  actualizar  tu  stock </p>
       </div>
     </div>
   )

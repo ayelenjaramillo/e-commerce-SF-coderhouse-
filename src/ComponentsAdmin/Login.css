@@ -1,14 +1,16 @@
 .container-general{
     background-color: #6CA787;
     font-family: 'Ubuntu', sans-serif;  
-    padding: 15%;
+    padding: 10% 15%;
     padding-left: 24%;
+    height: 100%;
 }
 .parrafo-login{
     color: white;
     font-weight: bolder;
     display: flex;
     justify-content: center ;
+    padding-right: 9%;
 }
 .input-login, .boton-login{
     margin-top: 2%;
@@ -22,7 +24,7 @@
     font-size: 22px;
     border-color: white;
     border-style:groove;
-    margin-bottom: 10%;
+    margin-bottom: 1%;
 }
 .titulo-login{
     font-size: 35px;
