@@ -11,7 +11,12 @@ const AllStock =({jean})=>{
           <li className="li-prod"> {jean.precio}</li>
           <li className="li-prod"> {jean.id}</li>
           <Link to="/ProductDetail">
-          <img className="img-productos" src={jeanunit}/></Link>
+          <div className="prueba">
+          <img className="img-productos" src={jeanunit}/>
+          <img className="img-productos hidden" src={jeanunit}/>
+          <img className="img-productos hidden" src={jeanunit}/>
+          </div>
+          </Link>
       </div>
     </div>
     </>

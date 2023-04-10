@@ -2,11 +2,11 @@
 .li-prod{
     list-style: none;
     font-size: 22px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: roboto;
     margin: 2% 4%; 
 }
 .img-productos{
-    width: 85%;
+    width: 75%;
     margin-left: 4%;
     border-radius: 10px;
     margin-bottom: 5%;
@@ -15,18 +15,32 @@
 }
 .product-title{
     box-shadow: rgba(0, 0, 0, 0.2) 3px 6px 10px;
-    width: 93%;
+    width: 73%;
     border-radius: 10px;
 }
 .general-productos{
-    margin-left: 6%;
+    margin-left: 15%;
+    margin-bottom: 13%;
 }
+.hidden{display: none;}
+
+
 @media (min-width: 1000px){
     .img-productos{
-        width: 20%;
+        width: 33%;
     }
     .general-productos{
-        width: 98%;
-        display: grid;
-        
-}}
+        width: 85%; 
+        padding: 2% 0;
+        margin: unset;
+        margin-left: unset;
+    }
+    
+
+    .product-title{
+        margin: 0;
+        width: 80%;
+      }
+    
+    
+    }

@@ -3,40 +3,45 @@
   @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,900&family=Ubuntu&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto:ital,wght@0,500;1,900&family=Ubuntu&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Raleway:wght@500&family=Roboto:ital,wght@0,500;1,900&family=Ubuntu&display=swap');
-
-
+  @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&family=Josefin+Sans:wght@600&family=Noto+Serif:wght@700&family=Raleway:wght@500&family=Roboto:ital,wght@0,500;1,900&family=Ubuntu&display=swap');
+ 
 .producto-slide-1{
-    background-image: url(./img/img2.jpg);
+    background-image: url(./img/jeansvarios.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 80%;
-    padding: 5% 10%;
+    padding: 12% 10%;
+    margin-top: 1%;
+    
 }
 .p-producto{
     color: #000501;
-    font-size: 30px;
+    font-size: 28px;
     margin-top: 5%;
     font-weight: bold;
+    font-family: 'Roboto';
 }
-.btn-comprar{
-    margin: 3% 25%;
-    width: 50%;
-    color: #99D6B5;  
-    box-shadow: rgba(0, 0, 0, 0.2) 3px 6px 10px;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'Ubuntu', sans-serif; 
-}
+
 .girasol{
    width: 40px;
 }
 .h1-producto{
-    color:#306536;
+    /* color:#D6C39B; */
+    color:#F4F7D9;
     opacity: 100%;
-    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Almarai';
     font-weight: bold;
-    font-size: 45px;
-    
+    font-size: 55px;
+    width: 90%;
+    background-color: #26677D;
+    margin: 2%;
+    margin-left: 10%;
+    padding: 1.5%;
+    padding-left: 15%;
+}
+.strong-titulo{
+  color: black;
+  font-size: 45px;
 }
 
 @media(min-width:1000px){
@@ -49,4 +54,11 @@
         padding-top: 3%;
 
     }
+    .h1-producto{
+      padding-left: 27%;
+      padding-top: 3%; 
+      padding-bottom: 3%;
+      margin-left: 6%;
+    }
+    
 }

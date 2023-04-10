@@ -12,7 +12,7 @@
     padding: 5%  15%;
     margin-bottom: 15%;
     border-radius: 10px;
-    background-color: #DFE5BF;
+    background-color: #F5F7EA;
     
 }
 .img-jean-unit{
@@ -20,13 +20,16 @@
     background-color: azure;
     width: 90%;
     height: 30%;
+    margin-left: 5%;
 }
 .titulonombre{
     font-size: 25px;
+    color: #26677D;
 }
 .info-precio{
     font-size: 20px;
     padding: 3% 0;
+    color: #26677D;
     
 }
 .info-descripcion{
@@ -40,7 +43,7 @@
     border-radius: 10px;
     padding: 3%;
     border-style: none;
-    background-color: #5AA463;
+    background-color: #26677D ;
     color: white;
     font-weight: bold;
     font-size: 20px;

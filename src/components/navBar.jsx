@@ -24,17 +24,27 @@ const NavBar=()=>{
           <div className={`div ${displayWebMenu ? '' : 'hide-menu'}`}>
             <nav className="navbar-container">
               <ul className="ul-header">
-                <Link to= "/"><li className="li-navbar"><a href="#" className="link">INICIO</a></li></Link><hr className='linea-div' />
-                <Link to= "/AllProducts"><li className="li-navbar"><a href="#" className="link">PRODUCTOS <span className="arrow"></span> </a></li></Link> <hr className='linea-div'/>
-                <Link><li className="li-navbar"><a href="#" className="link">BLOG</a></li></Link> <hr className='linea-div'/>
-                <Link><li className="li-navbar"><a href="#" className="link">CONTACTO</a></li></Link> <hr className='linea-div'/>
+                <Link className='link' to= "/">
+                  <li className="li-navbar">INICIO</li>
+                </Link>
+                <hr className='linea-div' />
+                <Link to= "/AllProducts" className='link'>
+                  <li className="li-navbar">PRODUCTOS</li>
+                </Link>
+                  <hr className='linea-div'/>
+                <Link className="link">
+                 <li className="li-navbar"> CONTACTO</li>
+                </Link>
+                <hr className='linea-div'/>
               </ul>
             </nav>
             <div className="img-logo">
-              <Link to="/login"><img src={sf} alt="logo" /></Link>
-            </div>
-            <div className="cart-widget">
-              <CartWidget/>
+              <Link to="/login" className='link'>
+                <p className='p-logo'>SF |</p>
+              </Link>
+              <div className="cart-widget">
+                <CartWidget/>
+              </div>
             </div>
           </div>
         </div>
