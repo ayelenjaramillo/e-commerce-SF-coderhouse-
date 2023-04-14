@@ -12,7 +12,8 @@
     padding: 5%  15%;
     margin-bottom: 15%;
     border-radius: 10px;
-    background-color: #F5F7EA;
+    background-color: #F6F2ED
+    ;
     
 }
 .img-jean-unit{
@@ -39,9 +40,9 @@
     font-weight: lighter;
 }
 .btn-disponible{
-    margin: 2% 19%;
+    margin: 4% 19%;
     border-radius: 10px;
-    padding: 3%;
+    padding:  6% 12%;
     border-style: none;
     background-color: #26677D ;
     color: white;
@@ -53,9 +54,13 @@
  @media (min-width: 1000px){
     .li-jean-unit {
       display: grid;
+      
      }
+    .ul-cards-items{
+      padding: 0 16.5%;
+    }
     .img-jean-unit{
-      width: 90%;
+      width: 94%;
       height: 95%;
     }
     }

@@ -1,46 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&family=Josefin+Sans:ital,wght@0,600;1,300&family=Noto+Serif:wght@700&family=Raleway:ital,wght@0,500;1,200&family=Roboto:ital,wght@0,500;1,900&family=Ubuntu&display=swap');
 
 .li-prod{
     list-style: none;
-    font-size: 22px;
-    font-family: roboto;
-    margin: 2% 4%; 
+    font-size: 25px;
+    /* font-family: roboto; */
+    font-weight: bolder;
+    margin: 1% 0%; 
 }
 .img-productos{
-    width: 75%;
+    width: 85%;
     margin-left: 4%;
     border-radius: 10px;
     margin-bottom: 5%;
     margin-left: 7%;
-    
+    box-shadow: rgba(0, 0, 0, 0.2) 3px 6px 10px;
 }
 .product-title{
-    box-shadow: rgba(0, 0, 0, 0.2) 3px 6px 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 3px 6px 10px; */
     width: 73%;
     border-radius: 10px;
 }
 .general-productos{
-    margin-left: 15%;
+    margin-left: 10%;
     margin-bottom: 13%;
 }
-.hidden{display: none;}
+.hidden{display: none;
+}
+.titulojean{
+  /* background-color: #2C94B5; */
+  width: 65%;
+  font-size: 35px;
+  margin-top: 5%;
+  /* box-shadow: rgba(0, 0, 0, 0.2) 3px 6px 10px; */
+}
+.detalle-jean{
+  font-size: 20px;
+  
+}
+.btn-detallejean{
+  padding: 3% 5%;
+  background-color:#2C94B5 ;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  margin-left:35%;
+}
+.titulo-detallejean{
+  font-size: 23px;
+  font-weight: bolder;
+  color: #2C94B5;
+}
 
 
 @media (min-width: 1000px){
     .img-productos{
-        width: 33%;
+        width: 21%;
+        margin: 2% 4%;
     }
     .general-productos{
-        width: 85%; 
-        padding: 2% 0;
-        margin: unset;
-        margin-left: unset;
+        width: 94%; 
+        margin-left: 9%;
+        margin-bottom: 0;
+       
     }
-    
-
-    .product-title{
-        margin: 0;
-        width: 80%;
+   .product-title{
+        width: 97%;
       }
+    .hidden{
+      display: inline-flex;
+    }
+    .titulojean{
+      width: 45%;
+    }
+    .desktop-detalle{
+      display: flex;
+      width: 95%;
+      margin-top: 2%;
+     
+    }
+    .titulo-detallejean{
+      margin-left: 7%;
+    }
+    .btn-detallejean{
+      padding: 45%;
+      padding: 25%;
+      margin-right: 12%;
+    }
+    .parrafo-detalledesktop{
+      margin-left: 10%;
+      width: 50%;
+      margin-right: 2%;
+    }
     
     
     }

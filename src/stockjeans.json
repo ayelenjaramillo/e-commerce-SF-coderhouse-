@@ -4,7 +4,12 @@
     "precio": "$2500", 
     "tipo": "Chupin Style", 
     "disponible": true, 
-    "descripcion": "Jean realizado con jean provenientes de susuusususus, buen calce. "
+    "descripcion": "Jeans mujer bordado tiro alto, buen calce. Temporada INVIERNO 23. Material: 75% Algodon, 23% Poliester, 2% Elastano",
+    "images": [
+      {"path": "/images/skinny_1.jpg"},
+      {"path": "/images/skinny_2.jpg"},
+      {"path": "/images/skinny_3.jpg"}
+    ]
 }, 
 {
     "id": 2, 
@@ -12,7 +17,12 @@
     "precio": "$3500", 
     "tipo": "MOM Style",
     "disponible": true, 
-    "descripcion": "Jean realizado con jean provenientes de susuusususus, buen calce. "
+    "descripcion": "Jeans mujer big destroy moms, buen calce. Temporada INVIERNO 23.Material: 75% Algodon, 23% Poliester, 2% Elastano",
+    "images": [
+      {"path": "/images/mom_1.jpg"},
+      {"path": "/images/mom_2.jpg"},
+      {"path": "/images/mom_2.jpg"}
+    ]
 },
 {
     "id": 3, 
@@ -20,7 +30,12 @@
     "precio": " $5500", 
     "tipo": "Oxford Style", 
     "disponible": true, 
-    "descripcion": "Jean realizado con jean provenientes de susuusususus, buen calce. "
+    "descripcion": "Jean buen calce.  Temporada OTOÑO 23. Material: 75% Algodon, 23% Poliester, 2% Elastano",
+    "images": [
+      {"path": "/images/oxford_1.jpg"},
+      {"path": "/images/oxford_2.jpg"},
+      {"path": "/images/oxford_1.jpg"}
+    ]
 }, 
 {
     "id": 4, 
@@ -28,7 +43,12 @@
     "precio": "$4500", 
     "tipo": "Chupin Style", 
     "disponible": true, 
-    "descripcion": "Jean realizado con jean provenientes de susuusususus, buen calce. "
+    "descripcion": "Jeans mujer bordado tiro alto, buen calce. Temporada INVIERNO 23. Material: 75% Algodon, 23% Poliester, 2% Elastano",
+    "images": [
+      {"path": "/images/skinny2_1.jpg"},
+      {"path": "/images/skinny2_2.jpg"},
+      {"path": "/images/skinny2_3.jpg"}
+    ]
 }, 
 {
     "id": 5, 
@@ -36,7 +56,12 @@
     "precio": "$4000", 
     "tipo": "MOM Style", 
     "disponible": false, 
-    "descripcion": "Jean realizado con jean provenientes de susuusususus, buen calce. "
+    "descripcion": "Jeans mujer cruzado tiro alto, buen calce. Temporada OTONO/INVIERNO 23. Material: 75% Algodon, 23% Poliester, 2% Elastano",
+    "images": [
+      {"path": "/images/mom2_1.jpg"},
+      {"path": "/images/mom2_2.jpg"},
+      {"path": "/images/mom2_3.jpg"}
+    ]
 },
 {
     "id": 6, 
@@ -44,14 +69,24 @@
     "precio": "$3500", 
     "tipo": "MOM Style",
     "disponible": true, 
-    "descripcion": "Jean realizado con jean provenientes de susuusususus, buen calce. "
+    "descripcion": "Jeans mujer cruzado tiro alto, buen calce. Temporada OTONO/INVIERNO 23. Material: 75% Algodon, 23% Poliester, 2% Elastano",
+    "images": [
+      {"path": "/images/mom_1.jpg"},
+      {"path": "/images/mom_2.jpg"},
+      {"path": "/images/mom_2.jpg"}
+    ]
 },
 {
     "id": 7, 
     "titulo": "Isabelle Jeans", 
     "precio": "$3500", 
-    "tipo": "MOM Style",
+    "tipo": "Wide Leg Style",
     "disponible": true, 
-    "descripcion": "Jean realizado con jean provenientes de susuusususus, buen calce. "
+    "descripcion": "Jeans mujer liso ancho wide, buen calce. Temporada INVIERNO 23. Material: 75% Algodon, 23% Poliester, 2% Elastano",
+    "images": [
+      {"path": "/images/wideleg2_1.jpg"},
+      {"path": "/images/wideleg2_2.jpg"},
+      {"path": "/images/wideleg2_3.jpg"}
+    ]
 }
 ]

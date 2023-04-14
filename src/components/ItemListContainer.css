@@ -2,12 +2,14 @@
 .cards-items{
     width: 95%;
     font-family: 'Ubuntu', sans-serif;
-    background-color: #F5F7EA;
+    background-color: #F6F2ED
+    ;
     
 }
 .general-container-item{
     
-    background-color: #F5F7EA; 
+    background-color:#F6F2ED
+    ; 
     font-family: 'Ubuntu', sans-serif;
 }
 .ul-cards-items{

@@ -9,10 +9,10 @@ function CardJeanUnit({jean}){
         <li className="li-jean-unit">
             <div className="titulonombre">{jean.titulo}</div>
             <div className="info-precio">{jean.precio}</div>
-            <Link to="/ProductDetail" ><img className="img-jean-unit" src={jeanunit}/></Link>
+              <img className="img-jean-unit" src={jean.images[0].path}/>
             <div className="info-descripcion">{jean.descripcion} </div>
-            <Link to="/Stockavailable">
-            <button className="btn-disponible">Ver stock disponible</button></Link>
+            <Link to="/AllProducts">
+            <button className="btn-disponible">Comprar</button></Link>
         </li>)
 } 
 
