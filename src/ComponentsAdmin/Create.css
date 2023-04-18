@@ -1,0 +1,29 @@
+/* MOBILE FIRST */
+
+.crear-stock-parrafo{
+  margin:  10% 0;
+}
+.columnas{
+  margin-top: 2%;
+  font-size: 20px;
+  font-weight: bold;
+  color:#26677D; 
+}
+.btn-agregar-stock{
+  padding: 2.5%;
+  width: 100%;
+  background-color: #26677D;
+  color: white;
+  border-style: none;
+  margin-top: 3%;
+  border-radius: 6px;
+  font-weight: bolder;
+}
+@media(min-width:1000px){
+  .crear-stock-parrafo{
+    margin: 5%;
+  }
+  .btn-agregar-stock{
+    padding: 1.5%;
+  }
+}

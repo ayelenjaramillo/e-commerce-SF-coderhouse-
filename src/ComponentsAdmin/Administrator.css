@@ -1,4 +1,4 @@
-
+/* MOBILE FIRST */
 .title-adm{
     font-size: 20px;
 }
@@ -6,11 +6,32 @@
     padding: 5%;
     font-family: 'Ubuntu', sans-serif; 
 }
+
 .btn{
     height: 95%;
-    
+    width: 45%;
+    margin-left: 4%;
 }
 .linea{
-   width: 38%;
-   
+   width: 30%;
+   gap: 2%;
 }
+
+.dos{
+  width: 45%;
+}
+.btn-crear-stock{
+  background-color:#26677D;
+  margin-bottom: 3%;
+  color: white;
+  padding: 2%;
+  border-style: none;
+  font-style: italic;
+  font-size: 20px;
+}
+.btn-crear-stock a{
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+

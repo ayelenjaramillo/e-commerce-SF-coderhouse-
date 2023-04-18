@@ -30,10 +30,9 @@ const Login =()=>{
         console.log(user)
     })
   }
-
-  return(
+return(
     <div className="general">
-      <div className="detalle"> <p className="parrafo-detalle"> #SFJEANS </p></div>
+      <div className="detalle"> <p className="parrafo-detalle"> </p></div> 
       <div className="container-general">
         <h3 className="titulo-login"> ¡Hola Administrador! </h3>
         <input className="input-login" id="email" type="email" placeholder="Ingresar email"></input> <br/>

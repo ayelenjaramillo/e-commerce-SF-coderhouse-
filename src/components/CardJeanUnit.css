@@ -12,9 +12,10 @@
     padding: 5%  15%;
     margin-bottom: 15%;
     border-radius: 10px;
-    background-color: #F6F2ED
-    ;
-    
+    background-color: #F6F2ED;
+}
+.ul-cards-items{
+  margin: 0;
 }
 .img-jean-unit{
     border-radius: 10px;
@@ -40,9 +41,9 @@
     font-weight: lighter;
 }
 .btn-disponible{
-    margin: 4% 19%;
+    margin: 4% 22%;
     border-radius: 10px;
-    padding:  6% 12%;
+    padding:  5% 13%;
     border-style: none;
     background-color: #26677D ;
     color: white;
@@ -55,12 +56,12 @@
     .li-jean-unit {
       display: grid;
       
-     }
+}
     .ul-cards-items{
       padding: 0 16.5%;
     }
     .img-jean-unit{
       width: 94%;
-      height: 95%;
+      height: 98%;
     }
     }

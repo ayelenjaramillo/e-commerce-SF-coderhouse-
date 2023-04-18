@@ -1,0 +1,112 @@
+/* MOBILE FIRST */
+
+.calendario-gral{
+ width: 100%;
+ margin: 0;
+ background-color: white;
+ font-family: 'Ubuntu', sans-serif;  
+}
+
+.react-calendario { 
+  margin:  2%;
+  width: 95%;
+  max-width: 90%;
+  background-color:#26677D;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  line-height: 1em;
+  border-style: none;
+ }
+ .react-calendar__navigation__label__labelText{
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+ }
+ .react-calendar__navigation button {
+  color: white;
+  min-width: 40px;
+  background: none;
+  font-size: 16px;
+  margin-top: 8px;
+  font-family: 'Ubuntu', sans-serif;  
+ }
+ .react-calendar__month-view__days__day--weekend{
+  color: grey;
+  }
+  .react-calendar__month-view__weekdays{
+    font-family: 'Ubuntu', sans-serif;  
+    font-size: 13px;
+  }
+ .react-calendar__month-view__days__day{
+  background-color: white;
+  font-weight: bolder;
+ }
+ .seleccion-hs{
+  width: 90%;
+  margin: 2%;
+  padding: 2%;
+  background-color: #26677D;
+  border-color: white;
+  color: white;
+  font-size: 17px;
+  font-weight: bolder;
+  border-radius: 7px;
+ }
+ .btn-confirmacion-cita{
+  margin: 1.5% 25%;
+  width: 45%;
+  padding: 3.5% 2%;
+  background-color: #26677D;
+  color: white;
+  border-style: none;
+  font-size: 18px;
+  font-weight: bolder;
+  border-radius: 12px;
+  font-family: 'Ubuntu', sans-serif;  
+ }
+ .texto-calendar{
+  font-family: 'Ubuntu', sans-serif;  
+  font-size: 27px;
+  font-weight: bolder;
+  margin-left: 13%;
+ }
+
+ /* DESKTOP */
+
+ @media(min-width: 1000px){
+  .calendario-gral{
+    padding-top: 1%;
+    padding-bottom: 3%;
+   
+  } 
+  .display-desktop{
+    display: flex;
+    max-width: 90%;
+    margin-left: 4%;
+  }
+  .react-calendario{
+    width: 60%;
+  }
+  .btn-display-desktop{
+    display: block;
+    width: 30%;
+    margin-top: 3.5%;
+    margin-left: 5%;
+  }
+  .seleccion-hs{
+    padding: 5.5%;
+    margin-bottom: 4%;
+  }
+  .btn-confirmacion-cita{
+    width: 90%;
+    margin-left: 2.5%;
+    border-radius: 7px;
+    padding: 4%;
+  }
+  .texto-calendar{
+    margin-left: 30%;
+    margin-top: 4%;
+   
+  }
+ }

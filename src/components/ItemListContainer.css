@@ -2,14 +2,11 @@
 .cards-items{
     width: 95%;
     font-family: 'Ubuntu', sans-serif;
-    background-color: #F6F2ED
-    ;
+    background-color: #F6F2ED;
     
 }
 .general-container-item{
-    
-    background-color:#F6F2ED
-    ; 
+    background-color:#F6F2ED; 
     font-family: 'Ubuntu', sans-serif;
 }
 .ul-cards-items{
@@ -37,5 +34,9 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, 400px);
     gap: 5%;
-    padding-top: 2%;
-}}
+    
+}
+.general-container-item{
+  padding-bottom: 10%;
+}
+}

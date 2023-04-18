@@ -35,7 +35,8 @@ const Administrator =()=>{
             showCancelButton: true, 
             confirmButtonColor: '#3085d6', 
             cancelButtonColor: '#d33', 
-            confirmButtonText: 'Si, borrarlo'
+            confirmButtonText: 'Si, borrarlo', 
+            
         }).then((result)=>{
             if(result.isConfirmed){
                 deleteProduct(id)
@@ -47,8 +48,7 @@ const Administrator =()=>{
             }
         })
     }
-
-    useEffect(()=>{
+ useEffect(()=>{
         getProducts()
     }, [])
 return(<>
@@ -56,7 +56,7 @@ return(<>
       <div className="row">
         <div className="col">
           <div className="d-grid">
-            <Link to='/create' className="btn btn-success mb-2"> Crear Stock </Link>
+            <button className="btn-crear-stock"><Link to='/create'>Crear Stock</Link></button> 
           </div>
             <table className="table table-striped table-bordered">
               <thead>
@@ -71,9 +71,9 @@ return(<>
                   <tr key={product.id}>
                     <td className="linea">{product.description} </td>
                     <td className="linea">{product.stock}</td>
-                    <td className="linea">
-                      <Link to= {`/edit/${product.id}`} className="btn btn-success btn-sm"> editar </Link>
-                      <button onClick={()=>{confirmDelete(product.id)}}className="btn btn-success btn-sm"> borrar </button>
+                    <td className="linea dos">
+                      <Link to= {`/edit/${product.id}`} className="btn btn-warning btn-sm "> Editar </Link>
+                      <button onClick={()=>{confirmDelete(product.id)}}className="btn btn-danger btn-sm"> Borrar </button>
                     </td>
                   </tr>
                 ))}

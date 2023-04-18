@@ -1,4 +1,4 @@
-import jeanunit from "./img/img1.jpg"; 
+
 import "./CardJeanUnit.css"; 
 import { Link } from "react-router-dom";
 
