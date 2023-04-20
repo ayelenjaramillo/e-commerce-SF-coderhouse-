@@ -1,18 +1,18 @@
 /* MOBILE FIRST */
 
 .header-ecommerce{
-    background-color:#2C94B5;
+    background-color:#26677D;
     font-family: 'Ubuntu', sans-serif;  
     flex-direction: column; 
 }
 .btn-menu{
     width: 100%;   
-    background-color: #26677D;
+    background-color: #30758C;
    
 }
 
 .navbar-container{
-    background-color: #26677D;
+    background-color: #30758C;
     width: 100%;
     font-size: 20px;
 }

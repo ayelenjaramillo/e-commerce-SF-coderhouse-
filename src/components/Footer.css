@@ -1,0 +1,23 @@
+.gral-footer{
+  background-color: #30758C ;
+  margin-bottom: 0;
+  font-size: 15px;
+  color: white;
+  margin-top: 9%;
+  display: flex; 
+  width: 100%;
+  justify-content: space-around;
+}
+.desktop-f{
+  display: none;
+}
+.icon-f{
+  margin-top: 9%;
+  font-size: 25px;
+
+}
+.detalle-creadora{
+  margin-left: 55%;
+  margin-top: 1.2%;  
+  
+}

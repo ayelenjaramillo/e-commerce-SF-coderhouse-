@@ -8,6 +8,7 @@ import Login from "./ComponentsAdmin/Login";
 import Administrator from "./ComponentsAdmin/Administrator"; 
 import Create from "./ComponentsAdmin/Create";
 import Edit from "./ComponentsAdmin/Edit"; 
+import Footer from "./components/Footer" ; 
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
     <Route exact path="/create" element ={<Create/>}/>
     <Route exact path="/edit/:id" element= {<Edit/>}/> 
     </Routes>
+    <Footer/>
     </BrowserRouter>
   );
 }
