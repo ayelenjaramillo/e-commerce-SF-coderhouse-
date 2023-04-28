@@ -26,7 +26,7 @@ const CalendarShowroom = ()=>{
     <Calendar  dateFormat="dd/MM/yyyy" onChange={setFecha} value={fecha} className="react-calendario"/>
     <div className='btn-display-desktop'>
     <select id='seleccionhorario' className='seleccion-hs' onChange={horario}  > 
-        <option value="" id='#' > Selecciona tu horario </option>
+        <option value="" selected > Selecciona tu horario </option>
         <option value="9hs" id='9hs'> - 09:00 hs</option>
         <option value="11hs" id='2'> - 11:00 hs</option>
         <option value="15hs" id='3'> - 15:00 hs</option>

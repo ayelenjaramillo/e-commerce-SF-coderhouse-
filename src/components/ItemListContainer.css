@@ -34,9 +34,9 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, 400px);
     gap: 5%;
-    
+    padding: 6% 16.5%;
 }
 .general-container-item{
-  padding-bottom: 10%;
+  padding-bottom: 2%;
 }
 }

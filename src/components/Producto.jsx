@@ -14,7 +14,7 @@ const Producto =()=>{
                     <h1 className="h1-producto">SUNFLOWER JEANS <img src={girasol} className="girasol"/></h1>
                     <p className="p-producto">
                         <strong className="strong-titulo"> SUNFLOWER JEANS  </strong>
-                     Es el emprendimiento de dos amigas creado en epocas de Pandemia. Apasionadas de la moda, quisimos ayudar a que tengas la mejor calidad de jeans y lo ultimo en tendencia ajustado al bolsillo de todos. 
+                     Es el emprendimiento de dos amigas creado en epocas de Pandemia. . 
                     </p>
                     {/* <Button  size="lg" className="btn-comprar text-white">Ver info para venta mayorista</Button>{' '} */}
                     {/* <button className="btn-comprar"> Comprar</button> */}

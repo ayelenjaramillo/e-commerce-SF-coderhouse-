@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"; 
 import {faBars} from '@fortawesome/free-solid-svg-icons'; 
-import sf from "./img/sf-princ.png"; 
 import CartWidget from "./CartWidget"; 
 import { Link } from "react-router-dom";
 import "./NavBar.css";
@@ -21,6 +20,10 @@ const NavBar=()=>{
       <div className="header-container">
         <div className="btn-menu">
           <FontAwesomeIcon icon={faBars} size="lg" className="hid" onClick={ toggleActiveMenu } />
+          <span className='cart-mobile'>
+            <CartWidget  />
+            </span>
+        </div>
           <div className={`div ${displayWebMenu ? '' : 'hide-menu'}`}>
             <nav className="navbar-container">
               <ul className="ul-header">
@@ -33,9 +36,13 @@ const NavBar=()=>{
                 </Link>
                   <hr className='linea-div'/>
                 <Link className="link">
-                 <li className="li-navbar"> CONTACTO</li>
+                 <li className="li-navbar"> ACERCA DE NOSOTRAS </li>
                 </Link>
                 <hr className='linea-div'/>
+                <Link className='link' to= "/login">
+                  <li className="li-navbar admin">ADMIN</li>
+                </Link>
+                <hr className='linea-div' />
               </ul>
             </nav>
             <div className="img-logo">
@@ -44,13 +51,15 @@ const NavBar=()=>{
               </Link>
               <div className="cart-widget">
                 <CartWidget/>
-              </div>
+                
+              </div> 
             </div>
           </div>
-        </div>
+       
       </div>
     </div>
     </>
   )
 }
-export default NavBar;
+export default NavBar; 
+

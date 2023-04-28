@@ -1,8 +1,8 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Ubuntu&display=swap');
+  /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Ubuntu&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,900&family=Ubuntu&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto:ital,wght@0,500;1,900&family=Ubuntu&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Raleway:wght@500&family=Roboto:ital,wght@0,500;1,900&family=Ubuntu&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Raleway:wght@500&family=Roboto:ital,wght@0,500;1,900&family=Ubuntu&display=swap'); */
   @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&family=Josefin+Sans:wght@600&family=Noto+Serif:wght@700&family=Raleway:wght@500&family=Roboto:ital,wght@0,500;1,900&family=Ubuntu&display=swap');
  
 .producto-slide-1{
@@ -20,10 +20,12 @@
     margin-top: 5%;
     font-weight: bold;
     font-family: 'Roboto';
+    margin-left: 8%;
 }
 
 .girasol{
-   width: 40px;
+   width: 50px;
+   margin-left: 3%;
 }
 .h1-producto{
     /* color:#D6C39B; */
@@ -32,7 +34,7 @@
     font-family: 'Almarai';
     font-weight: bold;
     font-size: 55px;
-    width: 90%;
+    width: 85%;
     background-color: #26677D;
     margin: 2%;
     margin-left: 10%;
@@ -51,14 +53,19 @@
         
     }
     .producto-slide-1{
-        padding-top: 3%;
+        padding-top: 2%;
+        padding-bottom: 10%;
 
     }
     .h1-producto{
-      padding-left: 27%;
+      padding-left: 23%;
       padding-top: 3%; 
       padding-bottom: 3%;
       margin-left: 6%;
+      width: 80%;
     }
-    
+    .p-producto{
+      margin-top: 9%;
+      margin-left: 13%;
+    }
 }

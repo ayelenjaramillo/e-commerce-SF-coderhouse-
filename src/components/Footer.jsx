@@ -6,19 +6,19 @@ import "./Footer.css";
 const Footer =()=>{
   return(
     <div className="gral-footer">
-      <div>
+      <div className="parrafo">
         <p className="mobile-f"> <strong>SF</strong> JEANS ®   <FontAwesomeIcon icon={faInstagram} size="2x" className="icon-f"/> </p>
         <p className="desktop-f"> Sunflower Jeans - Emprendimiento de Ayelen y Daiana ® 
-          <span>
-            <FontAwesomeIcon icon={faInstagram} size="2x" className="icon"/>
-          </span>
+        <span className="span-desktop-ig">
+          <FontAwesomeIcon icon={faInstagram} size="2x" className="icon"/>
+        </span>
         </p>
       </div>
       <p className="detalle-creadora">
-        <span className="span-f"> 
+        <div className="span-f"> 
         <FontAwesomeIcon icon={faLinkedin} size="2x" className="icon-f"/>
-        <FontAwesomeIcon icon={faGithubAlt} size="2x" className="icon"/>
-        </span> 
+        <FontAwesomeIcon icon={faGithubAlt} size="2x" className="icon-f"/>
+        </div>
       </p>
      
       <p>  </p>
