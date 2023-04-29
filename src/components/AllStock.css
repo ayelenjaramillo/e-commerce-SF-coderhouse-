@@ -87,10 +87,8 @@
       font-size: 30px;
     }
     .btn-detallejean{
-      padding: 35% 67%;
-      margin-right: 12%;
-      margin-top: .9%;
-    }
+      padding: 30% 67%;
+    } 
     .parrafo-detalledesktop{
       margin-left: 7.7%;
       width: 50%;
@@ -105,5 +103,8 @@
       margin-top: 2.7%;
       margin-left: 33%;
     }
-    
+   .boton{
+    display: inline;
+    margin-left: 5%;
+   }
     }

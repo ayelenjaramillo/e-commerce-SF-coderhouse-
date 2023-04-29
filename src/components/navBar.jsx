@@ -6,10 +6,10 @@ import { Link } from "react-router-dom";
 import "./NavBar.css";
 
 
-const NavBar=()=>{
+const NavBar=({contador})=>{
   const isMobile = window.innerWidth <= 768
   const [displayWebMenu, setDisplayWebMenu] = useState(!isMobile)
-
+  
   function toggleActiveMenu () {
     setDisplayWebMenu(!displayWebMenu)
   }
@@ -21,7 +21,7 @@ const NavBar=()=>{
         <div className="btn-menu">
           <FontAwesomeIcon icon={faBars} size="lg" className="hid" onClick={ toggleActiveMenu } />
           <span className='cart-mobile'>
-            <CartWidget  />
+            <CartWidget/>
             </span>
         </div>
           <div className={`div ${displayWebMenu ? '' : 'hide-menu'}`}>
@@ -51,7 +51,7 @@ const NavBar=()=>{
               </Link>
               <div className="cart-widget">
                 <CartWidget/>
-                
+              
               </div> 
             </div>
           </div>

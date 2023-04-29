@@ -3,8 +3,7 @@ import {faCartShopping} from '@fortawesome/free-solid-svg-icons';
 import "./CartWidget.css"; 
 
 const CartWidget =({agregar})=>{
-
-    return(
+ return(
         <div className="cart-widget"> 
         <FontAwesomeIcon icon={faCartShopping} size="2x" className="icon"/>
         <div className="cantidad-productos">

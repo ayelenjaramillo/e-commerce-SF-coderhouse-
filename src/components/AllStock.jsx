@@ -1,6 +1,5 @@
 import "./AllStock.css"; 
-import { useState } from "react";
-import CartWidget from "./CartWidget";
+import { createContext, useState } from "react";
 
 const AllStock =({jean})=>{
   const [contador, setContador]=useState(0); 
@@ -8,9 +7,11 @@ const AllStock =({jean})=>{
     setContador(contador+1)
   }
   console.log(contador); 
-
+ const ContadorContext = createContext(); 
+ 
   return(
     <>
+    <ContadorContext.Provider value={contador}>
     <div className="general-productos">
       <div className="product-title">
         <div className="top-h-prod">
@@ -29,9 +30,10 @@ const AllStock =({jean})=>{
           <p className="titulo-detallejean">{jean.tipo}</p>
           <p className="parrafo-detalledesktop">{jean.descripcion}</p>
           <span>
-           <CartWidget agregar={contador}/> 
-           
-            <button className="btn-detallejean" onClick={()=>agregar()}>{contador} Añadir </button>
+           {/* <CartWidget agregar={contador}/>  */}
+           <button className="btn-detallejean " onClick={()=>agregar()}>
+            <p className="boton">Añadir:{contador} </p>
+          </button>
             </span>
             </span>
         
@@ -40,6 +42,7 @@ const AllStock =({jean})=>{
       </div>
    
     </div>
+    </ContadorContext.Provider>
     </>
   )
 }
