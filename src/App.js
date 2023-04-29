@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route} from "react-router-dom"; 
+import { useState } from "react";
 import './App.css';
 import NavBar from './components/NavBar';
 import Home from "./components/Home";
@@ -11,9 +12,10 @@ import Edit from "./ComponentsAdmin/Edit";
 import Footer from "./components/Footer" ; 
 
 function App() {
+  const [contador, setContador]=useState(0); 
   return (
     <BrowserRouter>
-    <NavBar/>
+    <NavBar contador={contador} setContador={setContador}/>
     <Routes>
     <Route exact path="/" element={<Home/>}/>
     <Route exact path="/AllProducts" element={<AllProducts/>}/>

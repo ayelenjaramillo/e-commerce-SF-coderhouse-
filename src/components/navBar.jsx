@@ -50,7 +50,7 @@ const NavBar=({contador})=>{
                 <p className='p-logo'>SF |</p>
               </Link>
               <div className="cart-widget">
-                <CartWidget/>
+                <CartWidget agregar={contador}/>
               
               </div> 
             </div>

@@ -7,7 +7,7 @@ const CartWidget =({agregar})=>{
         <div className="cart-widget"> 
         <FontAwesomeIcon icon={faCartShopping} size="2x" className="icon"/>
         <div className="cantidad-productos">
-         <p> Total:{agregar}</p> 
+         <p> :{agregar}</p> 
         </div>
         </div>
     )
