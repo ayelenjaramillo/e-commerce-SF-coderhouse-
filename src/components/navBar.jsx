@@ -7,7 +7,7 @@ import "./NavBar.css";
 
 const NavBar = ({ contador }) => {
   const isMobile = window.innerWidth <= 768;
-  const [displayWebMenu, setDisplayWebMenu] = useState(!isMobile);
+  const [displayWebMenu, setDisplayWebMenu] = useState(isMobile);
 
   function toggleActiveMenu() {
     setDisplayWebMenu(!displayWebMenu);
@@ -37,10 +37,6 @@ return (
                 <Link to="/AllProducts" className="link">
                   <li className="li-navbar">PRODUCTOS</li>
                 </Link>
-                <hr className="linea-div" />
-                {/* <Link className="link">
-                 <li className="li-navbar"> ACERCA DE NOSOTRAS </li>
-                </Link> */}
                 <hr className="linea-div" />
                 <Link className="link" to="/login">
                   <li className="li-navbar admin">ADMIN</li>

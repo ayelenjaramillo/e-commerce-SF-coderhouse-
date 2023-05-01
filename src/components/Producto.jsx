@@ -16,8 +16,6 @@ const Producto =()=>{
                         <strong className="strong-titulo"> SUNFLOWER JEANS  </strong>
                      Es el emprendimiento de dos amigas creado en epocas de Pandemia. . 
                     </p>
-                    {/* <Button  size="lg" className="btn-comprar text-white">Ver info para venta mayorista</Button>{' '} */}
-                    {/* <button className="btn-comprar"> Comprar</button> */}
                 </article>
             </div>
         </section>
