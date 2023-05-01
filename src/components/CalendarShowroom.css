@@ -12,6 +12,7 @@
   width: 95%;
   max-width: 90%;
   background-color:#26677D;
+  background-image: radial-gradient(circle at 59.86% 28.85%, #5a8c9d 0, #30758c 50%, #005e7b 100%);
   color: white;
   border-radius: 5px;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
@@ -62,7 +63,7 @@
   color: white;
   border-style: none;
   font-size: 20px;
-  
+  background-image: radial-gradient(circle at 59.86% 28.85%, #5a8c9d 0, #30758c 50%, #005e7b 100%);
   border-radius: 5px;
   font-family: 'Ubuntu', sans-serif;  
  }

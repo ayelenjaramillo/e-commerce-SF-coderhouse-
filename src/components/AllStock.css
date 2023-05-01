@@ -7,7 +7,7 @@
     margin: 1% 0%; 
 }
 .img-productos{
-    width: 85%;
+    width: 95%;
     margin-left: 4%;
     border-radius: 10px;
     margin-bottom: 5%;
@@ -28,6 +28,7 @@
   width: 65%;
   font-size: 35px;
   margin-top: 5%;
+  font-family: roboto; 
 }
 .detalle-jean{
   font-size: 20px;
@@ -44,29 +45,31 @@
   box-shadow: rgba(0, 0, 0, 0.2) 3px 6px 10px;
   margin-top:7% ;
   margin-bottom: 5%;
- 
+  font-family: roboto; 
 }
 .titulo-detallejean{
   font-size: 23px;
   font-weight: bolder;
   color: #2C94B5;
   margin-top: 3%;
+  font-family: roboto; 
 }
 
 
 @media (min-width: 1000px){
     .img-productos{
-        width: 21%;
+        width: 23%;
         margin: 2% 4%;
     }
     .general-productos{
-        width: 94%; 
-        margin-left: 9%;
+        width: 95%; 
+        margin-left: 2%;
         margin-bottom: 0;
-       
+        margin-right: 0%;
     }
    .product-title{
-        width: 97%;
+        margin: 0% 3%;
+        width: 95%;
       }
     .hidden{
       display: inline-flex;
@@ -77,34 +80,39 @@
     }
     .desktop-detalle{
       display: flex;
-      width: 95%;
+      width: 100%;
       margin-top: 2%;
      
     }
     .titulo-detallejean{
-      margin-left: 3.9%;
-      margin-top: .9%;
-      font-size: 30px;
+      margin-left: 4.2%;
+      margin-top: .4%;
+      font-size: 35px;
     }
     .btn-detallejean{
-      padding: 30% 67%;
+      padding: 35% 85%;
     } 
     .parrafo-detalledesktop{
       margin-left: 7.7%;
-      width: 50%;
+      width: 55%;
       margin-right: 2%;
       margin-top: .5%;
     }
     .top-h-prod{
       display: flex;
-      margin-left: 3%;
+      margin-left: 3.5%;
+    }
+    .detalle-jean{
+      width: 100%;
     }
     .precio{
       margin-top: 2.7%;
-      margin-left: 33%;
+      margin-left: 38%;
+      font-family: roboto; 
     }
    .boton{
     display: inline;
     margin-left: 5%;
+    transition: all .3s ease;
    }
-    }
+ }

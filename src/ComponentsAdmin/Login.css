@@ -42,7 +42,7 @@
   max-width:40% ;
   margin-right: 1%;
   display: flex;
-  background-image: url(../components/img/imagen.jpg);
+  background-image: url(../components/img/imagen-adm.jpeg);
   width: 40%;
   color: #D2B995;
   font-size: 100px;
@@ -54,6 +54,10 @@
   display: flex;
   margin-top: 1%;
   
+ }
+ .container-general{
+  padding-top: 10%;
+  padding-bottom: 14%;
  }
  /* .parrafo-detalle{
   max-width: 80%;

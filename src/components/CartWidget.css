@@ -1,11 +1,11 @@
  .icon {
-  color: red; 
+  color: #E7E8E0; 
   font-size: 25px;
  
 }
  .cantidad-productos{
     margin-left: 10%;
-    color:red; 
+    color:#E7E8E0; 
     font-size: 14px;
     font-weight: bold;
     font-family: 'Ubuntu', sans-serif;
