@@ -29,8 +29,10 @@ const AllStock = ({ jean }) => {
           <div className="detalle-jean">
             <span className="desktop-detalle">
               <p className="titulo-detallejean">{jean.tipo}</p>
-              <p className="parrafo-detalledesktop">{jean.descripcion}</p>
-              <span>
+              <p className="parrafo-detalledesktop">{jean.descripcion}
+              <span className="talles-disp">{jean.talles}</span>
+              </p>
+            <span>
                 <button className="btn-detallejean " onClick={() => agregar()}>
                   <p className="boton">Añadir </p>
                 </button>

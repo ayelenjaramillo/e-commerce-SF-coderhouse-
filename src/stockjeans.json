@@ -4,7 +4,8 @@
     "precio": "$2500", 
     "tipo": "Chupin Style", 
     "disponible": true, 
-    "descripcion": "Jeans mujer bordado tiro alto, buen calce. Temporada INVIERNO 23. Material: 75% Algodon, 23% Poliester, 2% Elastano",
+    "descripcion": "Jeans mujer bordado tiro alto, buen calce. Temporada INVIERNO 23. Material: 75% Algodon, 23% Poliester, 2% Elastano. - ",
+    "talles": "Talles disponibles: 36, 38, 40, 44", 
     "images": [
       {"path": "/images/skinny_1.jpg"},
       {"path": "/images/skinny_2.jpg"},
@@ -17,7 +18,8 @@
     "precio": "$3500", 
     "tipo": "MOM Style",
     "disponible": true, 
-    "descripcion": "Jeans mujer big destroy moms, buen calce. Temporada INVIERNO 23.Material: 75% Algodon, 23% Poliester, 2% Elastano",
+    "descripcion": "Jeans mujer big destroy moms, buen calce. Temporada INVIERNO 23.Material: 75% Algodon, 23% Poliester, 2% Elastano. - ",
+    "talles": "Talles disponibles: 38, 40, 42, 44", 
     "images": [
       {"path": "/images/mom_1.jpg"},
       {"path": "/images/mom_2.jpg"},
@@ -30,7 +32,8 @@
     "precio": " $5500", 
     "tipo": "Oxford Style", 
     "disponible": true, 
-    "descripcion": "Jean buen calce.  Temporada OTOÑO 23. Material: 75% Algodon, 23% Poliester, 2% Elastano",
+    "descripcion": "Jean buen calce.  Temporada OTOÑO 23. Material: 75% Algodon, 23% Poliester, 2% Elastano. - ",
+    "talles": "Talles disponibles: 36, 40, 44", 
     "images": [
       {"path": "/images/oxford_1.jpg"},
       {"path": "/images/oxford_2.jpg"},
@@ -43,7 +46,8 @@
     "precio": "$4500", 
     "tipo": "Chupin Style", 
     "disponible": true, 
-    "descripcion": "Jeans mujer bordado tiro alto, buen calce. Temporada INVIERNO 23. Material: 75% Algodon, 23% Poliester, 2% Elastano",
+    "descripcion": "Jeans mujer bordado tiro alto, buen calce. Temporada INVIERNO 23. Material: 75% Algodon, 23% Poliester, 2% Elastano. - ",
+    "talles": "Talles disponibles: 36, 38, 40,42, 44, 46", 
     "images": [
       {"path": "/images/skinny2_1.jpg"},
       {"path": "/images/skinny2_2.jpg"},
@@ -56,7 +60,8 @@
     "precio": "$4000", 
     "tipo": "MOM Style", 
     "disponible": false, 
-    "descripcion": "Jeans mujer cruzado tiro alto, buen calce. Temporada OTONO/INVIERNO 23. Material: 75% Algodon, 23% Poliester, 2% Elastano",
+    "descripcion": "Jeans mujer cruzado tiro alto, buen calce. Temporada OTONO/INVIERNO 23. Material: 75% Algodon, 23% Poliester, 2% Elastano. - ",
+    "talles": "Talles disponibles: 36, 38", 
     "images": [
       {"path": "/images/mom2_1.jpg"},
       {"path": "/images/mom2_2.jpg"},
@@ -69,7 +74,8 @@
     "precio": "$3500", 
     "tipo": "MOM Style",
     "disponible": true, 
-    "descripcion": "Jeans mujer cruzado tiro alto, buen calce. Temporada OTONO/INVIERNO 23. Material: 75% Algodon, 23% Poliester, 2% Elastano",
+    "descripcion": "Jeans mujer cruzado tiro alto, buen calce. Temporada OTONO/INVIERNO 23. Material: 75% Algodon, 23% Poliester, 2% Elastano. - ",
+    "talles": "Talles disponibles: 36, 38, 42, 44", 
     "images": [
       {"path": "/images/mom_1.jpg"},
       {"path": "/images/mom_2.jpg"},
@@ -83,6 +89,7 @@
     "tipo": "Wide Leg Style",
     "disponible": true, 
     "descripcion": "Jeans mujer liso ancho wide, buen calce. Temporada INVIERNO 23. Material: 75% Algodon, 23% Poliester, 2% Elastano",
+    "talles": "Talles disponibles: 36, 38, 40, 44", 
     "images": [
       {"path": "/images/wideleg2_1.jpg"},
       {"path": "/images/wideleg2_2.jpg"},

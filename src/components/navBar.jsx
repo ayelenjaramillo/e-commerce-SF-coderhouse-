@@ -7,10 +7,10 @@ import "./NavBar.css";
 
 const NavBar = ({ contador }) => {
   const isMobile = window.innerWidth <= 768;
-  const [displayWebMenu, setDisplayWebMenu] = useState(isMobile);
+  const [displayWebMenu, setDisplayWebMenu] = useState(!isMobile);
 
   function toggleActiveMenu() {
-    setDisplayWebMenu(!displayWebMenu);
+    setDisplayWebMenu(displayWebMenu);
   }
 return (
     <>

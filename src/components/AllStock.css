@@ -43,8 +43,8 @@
   margin-left:35%;
   border-color: #2C94B5;
   box-shadow: rgba(0, 0, 0, 0.2) 3px 6px 10px;
-  margin-top:7% ;
-  margin-bottom: 5%;
+  margin-top:4% ;
+  margin-bottom: 4%;
   font-family: roboto; 
 }
 .titulo-detallejean{
@@ -54,7 +54,17 @@
   margin-top: 3%;
   font-family: roboto; 
 }
-
+.talles-disp{
+  color: grey;
+  font-size: 16px;
+  font-weight: bolder;
+  font-style: italic;
+}
+.boton{
+  font-size: 20px;
+  padding-top: 6%;
+  margin-bottom: 0;
+}
 
 @media (min-width: 1000px){
     .img-productos{
