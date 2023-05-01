@@ -35,9 +35,9 @@ const NavBar=({contador})=>{
                   <li className="li-navbar">PRODUCTOS</li>
                 </Link>
                   <hr className='linea-div'/>
-                <Link className="link">
+                {/* <Link className="link">
                  <li className="li-navbar"> ACERCA DE NOSOTRAS </li>
-                </Link>
+                </Link> */}
                 <hr className='linea-div'/>
                 <Link className='link' to= "/login">
                   <li className="li-navbar admin">ADMIN</li>
@@ -51,7 +51,6 @@ const NavBar=({contador})=>{
               </Link>
               <div className="cart-widget">
                 <CartWidget agregar={contador}/>
-              
               </div> 
             </div>
           </div>

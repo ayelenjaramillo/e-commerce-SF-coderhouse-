@@ -13,6 +13,7 @@ import Footer from "./components/Footer" ;
 
 function App() {
   const [contador, setContador]=useState(0); 
+
   return (
     <BrowserRouter>
     <NavBar contador={contador} setContador={setContador}/>

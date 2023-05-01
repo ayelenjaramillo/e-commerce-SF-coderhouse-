@@ -81,7 +81,7 @@
       display: none;
   }
   .navbar-container{
-      width: 50%;
+      width: 30%;
       padding: 1%;
       padding-top: 2.3%;
 
@@ -92,14 +92,14 @@
   }
   .ul-header{
       display: flex;
-      gap: 3%;
+      gap: 1%;
       justify-content: space-between;  
   }
   .img-logo{
       display: flex;
       padding-top: .7%;
       padding-bottom: .5%;
-      margin-left: 42%;
+      margin-left: 62%;
       position: relative;
       color: #DFE5BF;
   }
