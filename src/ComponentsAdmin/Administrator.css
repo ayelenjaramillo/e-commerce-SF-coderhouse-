@@ -4,7 +4,9 @@
 }
 .container-gral{
     padding: 5%;
+    padding-bottom: 17%;
     font-family: 'Ubuntu', sans-serif; 
+    
 }
 
 .btn{
@@ -19,6 +21,7 @@
 
 .dos{
   width: 45%;
+ 
 }
 .btn-crear-stock{
   background-color:#26677D;
@@ -28,10 +31,12 @@
   border-style: none;
   font-style: italic;
   font-size: 20px;
+  background-image: radial-gradient(circle at 59.86% 28.85%, #5a8c9d 0, #30758c 50%, #005e7b 100%);
 }
 .btn-crear-stock a{
   text-decoration: none;
   color: white;
   font-weight: bolder;
+  
 }
 

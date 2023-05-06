@@ -58,7 +58,7 @@ return(<>
           <div className="d-grid">
             <button className="btn-crear-stock"><Link to='/create'>Crear Stock</Link></button> 
           </div>
-            <table className="table table-striped table-bordered">
+            <table className="table table-striped table-bordered tabla">
               <thead>
                 <tr className="title-adm">
                   <th> Description </th>

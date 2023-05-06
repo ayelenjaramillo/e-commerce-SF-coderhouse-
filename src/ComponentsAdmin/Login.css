@@ -29,6 +29,7 @@
     border-color: white;
     border-style:groove;
     margin-bottom: 1%;
+    background-image: radial-gradient(circle at 59.86% 28.85%, #5a8c9d 0, #30758c 50%, #005e7b 100%);
 }
 .titulo-login{
     font-size: 35px;
@@ -57,7 +58,7 @@
  }
  .container-general{
   padding-top: 10%;
-  padding-bottom: 14%;
+  padding-bottom: 13.2%;
  }
  /* .parrafo-detalle{
   max-width: 80%;
